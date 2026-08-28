@@ -1,0 +1,53 @@
+# dependencies — regenerate with `npm install` (package-lock.json is committed)
+node_modules/
+
+# build output
+dist/
+.vite/
+*.tsbuildinfo
+
+# generated project work
+Projects/*
+!Projects/.gitkeep
+
+# python
+__pycache__/
+*.pyc
+
+# failed downloads — 30 MB of files that do not validate as archives
+temp_zips/
+
+# os
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# editor
+.idea/
+*.swp
+
+# local overrides
+.env
+.env.local
+
+
+# Dependencies
+node_modules/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Third-party reference corpus
+reference/repos/
+reference/skills/
+
+# Generated projects / build output
+Projects/*/node_modules/
+Projects/*/dist/
+Projects/*/build/
+
+# OS
+.DS_Store
+Thumbs.db
